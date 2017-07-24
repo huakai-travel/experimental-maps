@@ -1,7 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 
-module exports = {
+module.exports = {
   entry: './src/js/index.js',
   output: {
     path: path.resolve(__dirname, 'build'),
@@ -16,6 +16,10 @@ module exports = {
         query: {
           presets: [ 'es2015', 'react' ]
         }
+      },
+      {
+        test: /.html$/,
+        loader: 'html-loader'
       }
     ]
   }

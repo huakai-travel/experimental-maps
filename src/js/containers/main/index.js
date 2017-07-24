@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import MainComponent from '../components/main/index.js';
+import MainComponent from '../../components/main/index.js';
 
 class Main extends Component {
 
@@ -10,3 +10,5 @@ class Main extends Component {
     );
   };
 }
+
+export default Main;
