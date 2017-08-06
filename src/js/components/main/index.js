@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Easel from '../easel/index.js';
 
 class MainComponent extends Component {
   constructor(props){
@@ -8,7 +9,7 @@ class MainComponent extends Component {
 
   render() {
     return (
-      <div>cough</div>
+      <Easel width='640' height='480'/>
     );
   }
 }
