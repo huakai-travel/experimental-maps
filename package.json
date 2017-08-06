@@ -1,5 +1,5 @@
 {
-  "name": "react-game",
+  "name": "blank-react",
   "version": "1.0.0",
   "description": "react webpack app template",
   "main": "src/js/index.js",
@@ -22,7 +22,7 @@
     "webpack-dev-server": "^2.6.1"
   },
   "scripts": {
-    "build": "cp src/html/index.html build/ && cp -r web_workers/ build/ && webpack --config webpack.config.js",
-    "start": "yarn run build && webpack-dev-server --config webpack.config.js"
+    "build": "cp src/html/index.html build/ && webpack --config webpack.config.js",
+    "start": "webpack-dev-server --config webpack.config.js"
   }
 }
