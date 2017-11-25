@@ -23,6 +23,6 @@
   },
   "scripts": {
     "build": "cp src/html/index.html build/ && webpack --config webpack.config.js",
-    "start": "webpack-dev-server --config webpack.config.js"
+    "start": "yarn run build && webpack-dev-server"
   }
 }
