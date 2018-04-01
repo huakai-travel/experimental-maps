@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component, Fragment} from 'react';
 import PropTypes from 'prop-types';
 
 class MainComponent extends Component {
@@ -8,7 +8,7 @@ class MainComponent extends Component {
 
   render() {
     return (
-      <div>cough</div>
+      <Fragment>cough</Fragment>
     );
   }
 }
