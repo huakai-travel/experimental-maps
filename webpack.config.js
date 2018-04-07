@@ -25,5 +25,7 @@ module.exports = {
         loaders: ['style-loader', 'css-loader', 'sass-loader']
       }
     ]
-  }
+  },
+  devtool: 'source-map',
+  target: "web"
 }
