@@ -1,0 +1,15 @@
+{
+  "extends": [ "eslint:recommended", "plugin:react/recommended"],
+  "plugins": [ "eslint-plugin-react" ],
+  "parserOptions": {
+    "ecmaVersion":6,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module",
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  }
+}
