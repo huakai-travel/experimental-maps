@@ -19470,6 +19470,8 @@ var Main = function (_Component) {
   return Main;
 }(_react.Component);
 
+Main.propTypes = {};
+
 exports.default = Main;
 
 /***/ }),
@@ -20131,13 +20133,15 @@ var MainComponent = function (_Component) {
       return _react2.default.createElement(
         _react.Fragment,
         null,
-        'cough'
+        'Hello World'
       );
     }
   }]);
 
   return MainComponent;
 }(_react.Component);
+
+MainComponent.propTypes = {};
 
 exports.default = MainComponent;
 
@@ -20724,3 +20728,4 @@ module.exports = function (css) {
 
 /***/ })
 /******/ ]);
+//# sourceMappingURL=bundle.js.map

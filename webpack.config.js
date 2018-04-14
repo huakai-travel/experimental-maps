@@ -1,3 +1,4 @@
+/* global __dirname require module */
 const path = require('path');
 
 module.exports = {
@@ -13,7 +14,7 @@ module.exports = {
         loader: 'babel-loader',
         exclude: /node_modules/,
         query: {
-          presets: [ 'es2015', 'react' ]
+          presets: [ 'env', 'react' ]
         }
       },
       {
@@ -26,6 +27,5 @@ module.exports = {
       }
     ]
   },
-  devtool: 'source-map',
-  target: "web"
+  devtool: 'source-map'
 }

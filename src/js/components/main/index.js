@@ -8,9 +8,11 @@ class MainComponent extends Component {
 
   render() {
     return (
-      <Fragment>cough</Fragment>
+      <Fragment>Hello World</Fragment>
     );
   }
 }
+
+MainComponent.propTypes = {};
 
 export default MainComponent;
